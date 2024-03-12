@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.input-border {
+  border: 1px solid beige;
+  background-color: aliceblue;
+  padding: 10px;
+  width: 40%;
+  box-shadow: 0px 4px 4px black;
+  display: flex;
+  row-gap: 10px;
+  justify-content: space-between;
+}
+
+.input-text {
+  color: white;
+  border-radius: 4px;
+  border: 1px solid rgb(94, 34, 235);
+  background-color: rgb(94, 34, 235);
+  padding: 4px;
+}
+
+.input-bg {
+  background-color: white;
+  display: flex;
+  gap: 4px;
+}
+
+.Dropdown {
+  width: 41%;
+  display: none;
+}
+
+.open {
+  display: block;
+  animation-duration: 2s;
+  animation-name: example;
+}
+
+@keyframes example {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+option {
+  color: rgb(68, 26, 223);
+  background-color: white;
+  font-size: 24px;
+  padding: 10px;
+}
+
+option:hover {
+  background-color: aqua;
+}
